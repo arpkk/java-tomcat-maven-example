@@ -11,6 +11,6 @@
 <%
     String parameterValue = System.getProperty("parameter");
 %>
-<p>El valor del parámetro es: <%= 1+2 %></p>
+<p>El valor del parámetro es: <%= parameterValue %></p>
 </body>
 </html>
